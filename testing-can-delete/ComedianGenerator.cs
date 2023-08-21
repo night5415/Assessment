@@ -29,13 +29,14 @@
         {
             var jokes = new List<Joke>
             {
-                new Joke(){ComedianId=1,PunchLine="yo mamma" },
-                new Joke(){ComedianId=1,PunchLine="Boo Hoo" },
-                new Joke(){ComedianId=1,PunchLine="Boo Hoo" },
+                new Joke(){ComedianId=1,PunchLine="My wife told me to stop impersonating a flamingo. I had to put my foot down." },
+                new Joke(){ComedianId=1,PunchLine="I went to buy some camo pants but couldn’t find any." },
+                new Joke(){ComedianId=1,PunchLine="I went to buy some camo pants but couldn’t find any." },
 
-                new Joke(){ComedianId=2,PunchLine="Knock Knock"},
-                new Joke(){ComedianId=2,PunchLine="Knock Knock"},
-                new Joke(){ComedianId=2,PunchLine="Who's there?"}
+                new Joke(){ComedianId=2,PunchLine="When life gives you melons, you might be dyslexic."},
+                new Joke(){ComedianId=2,PunchLine="My father has schizophrenia, but he’s good people."},
+                new Joke(){ComedianId=2,PunchLine="Never trust atoms; they make up everything."},
+                new Joke(){ComedianId=2,PunchLine="Never trust atoms; they make up everything."}
             };
             return jokes;
         }
